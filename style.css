@@ -1,0 +1,140 @@
+body {
+
+  line-height: 0.2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+
+
+}
+
+.red {
+
+  color:#ce2029;
+}
+
+.container {
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* ax-width:850px; */
+}
+
+.container h1 {
+  margin-top:30px;
+  font-size:2.6rem;
+  
+}
+
+.Name-Child {
+
+  margin-bottom: 15px;
+ 
+}
+
+.Name-Child h4 {
+
+  margin-right:2px;
+  display: inline;
+}
+
+.Name-Child input {
+
+  width:881px;
+  height:30px;
+  
+}
+
+.OtherInputs {
+
+ 
+
+
+}
+
+.OtherInputs input {
+  width:400px;
+  height:30px;
+}
+
+.OtherInputs h4 {
+  margin-right:5px;
+  display: inline;
+}
+
+
+/* .btn {
+
+  margin-top:20px;
+  width:90px;
+  height:80px;
+  background-color: green;
+  
+} */
+
+
+.Viewbtn {
+
+  margin-top:20px;
+  
+
+}
+
+.btn  {
+  font-size: 17px;
+  text-decoration: none;
+  border-radius:15px; 
+  display:inline-block;
+  color:#fff;
+  background-color: #ce2029;
+  text-decoration: none;
+  height: 25px;
+  width:150px;
+  text-align: center;
+  padding-top:20px;
+  /* margin-right:50px; */
+  /* margin-bottom:2px; */
+
+}
+
+
+.content-table {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.content-table thead tr {
+  background-color: #ce2029;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 17px 20px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #ce2029;
+}
+
+

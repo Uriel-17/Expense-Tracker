@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <h2 class = "red">Add A New Item:</h3>
+
+      <div class="containerInputs">
+        <div class = "Name-Child">
+          <h4>Name:</h4>
+          <input type="text" placeholder="Where was the expense made" id = "Name">
+        </div>
+  
+        <div class="OtherInputs">
+          <h4>Date:</h4>
+          <input type="date" id = "date">
+          <h4>Amount:</h4>
+          <input type="text" id = "Amount">
+        </div>  
+
+      </div>
+  
+      <div class = "Viewbtn">
+        <a href="#" class = "btn">Add Expense</a>
+      </div>
+  </div>
+
+  <table class = "content-table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody id = "tBody"></tbody>   
+  </table>  
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+<!-- <tr>
+      <td>1</td>
+      <td>Domenic</td>
+      <td>88,110</td>
+      <td>dcode</td>
+    </tr> -->
